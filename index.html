@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Application</title>
+  
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+ 
+
+  
+</head>
+
+<body>
+  <section>
+      <header class="head">
+          <h1 class="heading">Weather App</h1>
+  </header>
+  </section>
+
+  
+<section>
+  <div class="container">
+   <header class="h2">
+    <div class="search">
+      <input type="text" placeholder="Enter City Name" id="search-txt">
+      <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+    </div>
+    </header>
+ 
+  
+
+  <main id="main">
+    
+    <div class="city-icon">
+      <div class="city-icon-holder">
+      <div id="city-name"></div>
+      <img src="" alt="" id="icon">
+        </div>
+    </div>
+    
+    <div class="temperature">
+      <div id="temp"></div>
+    </div>
+    
+    <div class="humidity">
+      <div id="humidity-div"></div>
+    </div>
+    
+  </main>
+
+</section>
+<div class="box1">
+<h1 class="heading1">Enter Temperature For Desired City :</h1>
+</div>
+<div class="container2">
+    <input class="input" type="number" id="temp2">
+    <input class="button" type="submit" value="Submit" onclick="showsappropriateclothing()">
+</div>
+
+
+<section>
+    <footer class="footer">
+      <p>Web Design By Yusuf Hendricks, Copyright &copy; 2019</p>
+</section>
+
+<section>
+    
+     <h3 id="h3" class="h3">Outfit Examples For Temperatures 30° & Above :</h3> 
+    <img class="image" src="img/im6.jpeg" alt="Nelson Madiba" width="30%" height="30%">
+    <img class="image" src="img/im5.jpeg" alt="Nelson Madiba" width="30%" height="30%">
+
+    <h3 class="h3">Outfit Examples For Temperatures 15° & Below :</h3>
+    <img class="image" src="img/img3.jpeg" alt="Nelson Madiba" width="30%" height="30%">
+    <img class="image" src="img/img1.jpeg" alt="Nelson Madiba" width="30%" height="30%">
+
+    <h3 class="h3">Outfit Examples For Temperatures 0° & Below :</h3>
+    <img class="image" src="img/im4.jpeg" alt="Nelson Madiba" width="30%" height="30%">
+    <img class="image" src="img/img2.jpeg" alt="Nelson Madiba" width="30%" height="30%">
+
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+  
+  <script  src="js/index.js"></script>
+ 
+
+
+
+</body>
+
+</html>
