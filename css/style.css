@@ -57,7 +57,7 @@ body{
     left: 25%;
     top: 40%;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
     text-align: center;
   }
   
@@ -169,7 +169,7 @@ body{
   }
 
   .input{
-      background-color: ivory;
+      background-color:#C4DBF6;
       border-radius: 5px;
       padding: 1em 1em;
       border-style: solid;
