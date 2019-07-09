@@ -46,7 +46,7 @@ function httpRequestAsync(url, callback)
     httpRequest.send();
 }
 
-/*suggestions*/
+/*Outfit suggestions*/
 
 function showsappropriateclothing(){
     var temperature = document.getElementById("temp2").value;
