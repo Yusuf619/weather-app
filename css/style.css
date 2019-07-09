@@ -19,7 +19,7 @@ body{
 }
 
 
-/*api*/
+/*Api*/
 
   
   .container{
@@ -208,7 +208,7 @@ body{
     width: 100%;
     padding:20px;
     margin-top:20px;  
-    color:#C4DBF6 ;
-    background-color:#2F2FA2;
+    color: #F7F9FB;
+    background-color: #2F2FA2;
     text-align: center;
   }
